@@ -7,12 +7,13 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import javax.persistence.Embeddable;
 import javax.persistence.Entity;
 
 @AllArgsConstructor
 @Builder
 @Data
-@Entity
+@Embeddable
 @NoArgsConstructor
 
 public class ItemDto
